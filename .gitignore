@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 运行产物(截图 / 结果, 体积大, 每次运行都会生成) ----
+operate/steps/
+
+# ---- 本机环境与密钥 ----
+.env
+*.log
+.vscode/
+.idea/
+
+# ---- 本机生成的注册表备份(与本机 USB 设备实例绑定, 无通用价值) ----
+operate/adb_winusb_backup.reg
+
+# ---- 临时草稿 ----
+operate/app_list.txt
+
+# ---- Windows ----
+Thumbs.db
+desktop.ini
